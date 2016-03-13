@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.studybuddy.studybuddy.MainActivity"
     tools:showIn="@layout/activity_main"
-    android:background="#9fd0f9">
+    android:background="#FFCEE8FA">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -28,7 +28,6 @@
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="92dp"
-        android:onClick="Gotologinpage"
-        android:tint="#cee8fa" />
+        android:onClick="Gotologinpage" />
 
 </RelativeLayout>

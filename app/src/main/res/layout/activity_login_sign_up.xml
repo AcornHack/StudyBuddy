@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.studybuddy.studybuddy.LoginSignUp">
+    tools:context="com.studybuddy.studybuddy.LoginSignUp"
+    android:background="#FFCEE8FA">
 
     <Button
         android:layout_width="wrap_content"
@@ -27,4 +28,13 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:text="sign up" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/studdy_buddy_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
