@@ -41,5 +41,6 @@
         android:id="@+id/imageView2"
         android:src="@drawable/studdy_buddy_logo"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff" />
 </RelativeLayout>

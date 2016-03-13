@@ -28,6 +28,8 @@
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="92dp"
-        android:onClick="Gotologinpage" />
+        android:onClick="Gotologinpage"
+        android:src="@drawable/studdy_buddy_logo"
+        android:background="#ffffff" />
 
 </RelativeLayout>
