@@ -16,7 +16,8 @@
         android:id="@+id/button5"
         android:text="Review"
         android:layout_below="@+id/button4"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick= "GoToShowRevisionSchedule" />
 
     <Button
         android:layout_width="wrap_content"
@@ -39,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView2"
-        android:src="@drawable/studdy_buddy_logo"
+        android:src="@drawable/study_buddy_logo"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="#ffffff" />
